@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA_Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Icon Website -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Box Icons -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+    <!-- Light-slider.css -->
+    <link rel="stylesheet" href="css/lightslider.css">
+    <!-- Jquery -->
+    <script type="text/javascript" src="js/jQuery.js"></script>
+    <!-- Lightslider.js -->
+    <script type="text/javascript" src="js/lightslider.js"></script>
+    <title>Portfolio Dossy</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#home" class="nav_logo">
+                    <img src="img/favicon.png" alt="">
+                </a>
+            </div>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+                    <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
+                    <li class="nav_item"><a href="#portfolio" class="nav_link">Portfolio</a></li>
+                    <li class="nav_item"><a href="#education" class="nav_link">Education</a></li>
+                    <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="nav_toogle" id="nav-toogle">
+                <i class="bx bx-menu"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!-- Home -->
+        <section class="home bd-grid" id="home">
+            <div class="home_data">
+                <h1 class="home_title"><u>Hello I'm </u> ,<br><span class="home_title-color">Muhammad Muzzaky</span><br> Graphic Designer & <br> Photographer</h1>
+            </div>
+            <br>
+            <div class="home_img">
+                <img src="img/Home_model.png" alt="">
+            </div>
+        </section>
+        <!-- About -->
+        <section class="about section" id="about">
+            <h2 class="section-title">About</h2>
+            <div class="about_container bd-grid">
+                <div class="about_img">
+                    <img src="img/model.png">
+                </div>
+                <div>
+                    <p class="about_text">
+                        Hallo! Nama saya Muhammad Muzzaky biasa dipanggil dossy, lahir di Malang tanggal 9 Maret 2002. Saya beralamatkan di Jl. P. Diponegoro Girimoyo, Kecamatan Karangploso, Kab Malang.
+                        Saya hobi berkarya dibidang fotografi, desain grafis, dan sinematografi. Sekarang saya sedang melanjutkan pendidikan sebagai Mahasiswa Baru di Dapartemen Desain Komunikasi Visual Institut Teknologi Sepuluh Nopember
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- Skills -->
+        <br><br><br>
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2><br>
+            <div class="skills_container bd-grid">
+                <div class="skills_data">
+                    <div class="skills_name">
+                        <i class="skills_icon">
+                            <img src="img/ps.svg">
+                        </i>
+                        <span class="skills_name">Photoshop</span>
+                    </div>
+                    <div>
+                        <span class="skills_percentage">85%</span>
+                    </div>
+                    <div class="skills_bar skill_ps"></div>
+                </div>
+                <div class="skills_data">
+                    <div class="skills_name">
+                        <i class="skills_icon">
+                            <img src="img/lr.svg">
+                        </i>
+                        <span class="skills_name">Lightroom</span>
+                    </div>
+                    <div>
+                        <span class="skills_percentage">70%</span>
+                    </div>
+                    <div class="skills_bar skill_lr"></div>
+                </div>
+                <div class="skills_data">
+                    <div class="skills_name">
+                        <i class="skills_icon">
+                            <img src="img/ai.svg">
+                        </i>
+                        <span class="skills_name">Ilustrator</span>
+                    </div>
+                    <div>
+                        <span class="skills_percentage">75%</span>
+                    </div>
+                    <div class="skills_bar skill_ai"></div>
+                </div>
+                <div class="skills_data">
+                    <div class="skills_name">
+                        <i class="skills_icon">
+                            <img src="img/ae.svg">
+                        </i>
+                        <span class="skills_name">After Effect</span>
+                    </div>
+                    <div>
+                        <span class="skills_percentage">55%</span>
+                    </div>
+                    <div class="skills_bar skill_ae"></div>
+                </div>
+                <div class="skills_data">
+                    <div class="skills_name">
+                        <i class="skills_icon">
+                            <img src="img/pr.svg">
+                        </i>
+                        <span class="skills_name">Premier Pro</span>
+                    </div>
+                    <div>
+                        <span class="skills_percentage">65%</span>
+                    </div>
+                    <div class="skills_bar skill_pr"></div>
+                </div>
+            </div>
+        </section>
+        <br><br>
+        <!-- Portfolio -->
+        <section id="portfolio" class="section">
+            <h2 class="section-title">Portfolio</h2>
+            <ul id="autoWidth" class="portfolio cs-hidden">
+                <!-- Porfolio 1 -->
+                <li class="item-a">
+                    <!-- Box Slider -->
+                    <div class="portfolio_box">
+                        <!-- IMG box -->
+                        <div class="portfolio_img_slider">
+                            <img src="img/SW1.jpg">
+                        </div>
+                        <!-- Detail Box -->
+                        <div class="portfolio_detail_box">
+                            <!-- type -->
+                            <div class="portfolio_type">
+                                <a href="#">Cougar Coco Sugar</a>
+                                <br>
+                                <span>Brand Identity</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- Porfolio 2 -->
+                <li class="item-b">
+                    <!-- Box Slider -->
+                    <div class="portfolio_box">
+                        <!-- IMG box -->
+                        <div class="portfolio_img_slider">
+                            <img src="img/SW2.jpg">
+                        </div>
+                        <!-- Detail Box -->
+                        <div class="portfolio_detail_box">
+                            <!-- type -->
+                            <div class="portfolio_type">
+                                <a href="#">Melfa Snack</a>
+                                <br>
+                                <span>Brand Identity</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- Porfolio 3 -->
+                <li class="item-c">
+                    <!-- Box Slider -->
+                    <div class="portfolio_box">
+                        <!-- IMG box -->
+                        <div class="portfolio_img_slider">
+                            <img src="img/SW3.jpg">
+                        </div>
+                        <!-- Detail Box -->
+                        <div class="portfolio_detail_box">
+                            <!-- type -->
+                            <div class="portfolio_type">
+                                <a href="#">Happy Cake Malang</a>
+                                <br>
+                                <span>Social Media Management</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- Porfolio 4 -->
+                <li class="item-d">
+                    <!-- Box Slider -->
+                    <div class="portfolio_box">
+                        <!-- IMG box -->
+                        <div class="portfolio_img_slider">
+                            <img src="img/SW4.jpg">
+                        </div>
+                        <!-- Detail Box -->
+                        <div class="portfolio_detail_box">
+                            <!-- type -->
+                            <div class="portfolio_type">
+                                <a href="#">Omakaryo Future X Culture</a>
+                                <br>
+                                <span>Merchandise</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- Porfolio 5 -->
+                <li class="item-e">
+                    <!-- Box Slider -->
+                    <div class="portfolio_box">
+                        <!-- IMG box -->
+                        <div class="portfolio_img_slider">
+                            <img src="img/SW5.jpg">
+                        </div>
+                        <!-- Detail Box -->
+                        <div class="portfolio_detail_box">
+                            <!-- type -->
+                            <div class="portfolio_type">
+                                <a href="#">DBL 2019 Creator Competition</a>
+                                <span>Social Media Management</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- Porfolio 6 -->
+                <li class="item-f">
+                    <!-- Box Slider -->
+                    <div class="portfolio_box">
+                        <!-- IMG box -->
+                        <div class="portfolio_img_slider">
+                            <img src="img/SW6.jpg">
+                        </div>
+                        <!-- Detail Box -->
+                        <div class="portfolio_detail_box">
+                            <!-- type -->
+                            <div class="portfolio_type">
+                                <a href="#">DBL 2019 Creator Competition</a>
+                                <span>Journalistic</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <!-- Porfolio 7 -->
+                <li class="item-g">
+                    <!-- Box Slider -->
+                    <div class="portfolio_box">
+                        <!-- IMG box -->
+                        <div class="portfolio_img_slider">
+                            <img src="img/SW7.jpg">
+                        </div>
+                        <!-- Detail Box -->
+                        <div class="portfolio_detail_box">
+                            <!-- type -->
+                            <div class="portfolio_type">
+                                <a href="#">MAN 1 Kota Malang Yearbook</a>
+                                <span>Artwork</span>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="work section">
+                <h3 class="sub_text-work">Photos</h3>
+                <br>
+                <div class="work_container bd-grid">
+                    <div class="work_img">
+                        <img src="img/photos1.jpg">
+                    </div>
+                    <div class="work_img">
+                        <img src="img/photos2.jpg">
+                    </div>
+                    <div class="work_img">
+                        <img src="img/photos3.jpg">
+                    </div>
+                    <div class="work_img">
+                        <img src="img/photos4.jpg">
+                    </div>
+                    <div class="work_img">
+                        <img src="img/photos5.jpg">
+                    </div>
+                    <div class="work_img">
+                        <img src="img/photos6.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Education -->
+        <section class="resume-section section" id="education">
+            <div class="resume-section-content">
+                <h2 class="section-title">Education</h2>
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5 education_container bd-grid">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0 education_text education_heading">Institut Teknologi Sepuluh Nopember</h3>
+                        <div class="subheading mb-3 education_text">Visual Communication Design</div>
+                    </div>
+                    <div class="flex-shrink-0 mb-1"><span class="text-primary">2020 - Now</span></div>
+                </div>
+                <div class="d-flex flex-column flex-md-row justify-content-between education_container bd-grid">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0 education_text education_heading">MAN 1 Kota Malang</h3>
+                        <div class="subheading mb-3 education_text">Science Class</div>
+                    </div>
+                    <div class="flex-shrink-0 mb-1"><span class="text-primary">2017 - 2020</span></div>
+                </div>
+                <br><br>
+                <div class="d-flex flex-column flex-md-row justify-content-between education_container bd-grid">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0 education_text education_heading">MTSN Kota Batu</h3>
+                        <br>
+                    </div>
+                    <div class="flex-shrink-0 mb-1"><span class="text-primary">2014 - 2017</span></div>
+                </div>
+            </div>
+        </section>
+        <!-- Achievement -->
+        <h3 class="sub_text-achievement">Achievements</h3>
+        <br>
+        <div class="education_container bd-grid">
+            <ul class="fa-ul mb-0 achievement_text">
+                <li>
+                    <span class="fa-li"><i class="fas fa-trophy text-warning achievement_icon"></i></span>
+                    Juara 1 - Kompetisi Mading Online 2019
+                </li>
+                <br>
+                <li>
+                    <span class="fa-li"><i class="fas fa-trophy text-warning achievement_icon"></i></span>
+                    Juara 2 - Lomba desain Buklet
+                </li>
+                <br>
+                <li>
+                    <span class="fa-li"><i class="fas fa-trophy text-warning achievement_icon"></i></span>
+                    Juara 2 - DBL Creator Competition
+                </li>
+                <br>
+            </ul>
+        </div>
+        <br>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+        <p class="footer_title">Muhammad Muzzaky</p>
+        <div class="footer_social">
+            <a href="#" class="footer_icon"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="footer_icon"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="footer_icon"><i class="bx bxl-twitter"></i></a>
+        </div>
+        <p>&#169; 2021 Copyright All Right Reserved</p>
+    </footer>
+    <!-- Script JS -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
